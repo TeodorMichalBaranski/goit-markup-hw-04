@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   gap: 46px;
   width: 261px;
-  margin-right: 364px;
+  margin-right: 345px;
 }
 .web {
   font-family: Raleway;
@@ -106,6 +106,18 @@ body {
 .icon-header {
   fill: var(--brand-grey);
   margin-right: 10px;
+}
+.icon-header:hover,
+.icon-header:focus {
+  fill: var(--brand-blue);
+  /* stroke: var(--brand-blue); */
+  cursor: pointer;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 /* SECTION with button */
