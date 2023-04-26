@@ -100,7 +100,7 @@ body {
 }
 
 .gap-between-header {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .icon-header {
@@ -267,7 +267,24 @@ body {
   line-height: 1.1875;
   letter-spacing: 0.03em;
   text-align: center;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 16px 0;
+}
+.our-team-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px 30px 32px;
+  gap: 10px;
+}
+.company-icon {
+  fill: var(--brand-lightgrey);
+}
+.company-icon:focus,
+.company-icon:hover {
+  fill: var(--just-white);
+  cursor: pointer;
+  background-color: var(--brand-blue);
+  border-radius: 50%;
 }
 
 /* NASI KLIENCI */
@@ -411,4 +428,33 @@ body {
   line-height: 1.2;
   color: var(--just-white);
   text-decoration: none;
+}
+
+.join-us {
+  padding: 72px 0 100px 0;
+  margin-left: 70px;
+}
+.join-us-text {
+  color: var(--just-white);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer2 {
+  display: flex;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.company-icon-footer {
+  fill: var(--just-white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.company-icon-footer:hover,
+.company-icon-footer:focus {
+  background-color: var(--brand-blue);
+  cursor: pointer;
 }
