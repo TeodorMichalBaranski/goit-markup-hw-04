@@ -136,6 +136,8 @@ body {
   padding-bottom: 200px;
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2f303a;
 }
 .title-box {
   /* max-height: 600px; */
@@ -410,6 +412,8 @@ body {
 }
 .footer {
   padding: 60px 0 60px 0px;
+  display: flex;
+  flex-direction: column;
 }
 .web-studio-footer {
   text-decoration: none;
@@ -449,12 +453,17 @@ body {
 .join-us {
   padding: 72px 0 100px 0;
   margin-left: 70px;
+  margin-top: 0px;
   /* align-self: center; */
 }
 .join-us-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
   color: var(--just-white);
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .footer2 {
   display: flex;
